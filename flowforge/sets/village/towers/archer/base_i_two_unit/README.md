@@ -26,12 +26,12 @@
 - 새 전면 난간은 후면의 동일 픽셀에서 실제 난간의 윤곽을 따라 추출했다. 전면 교체 시 게임은 원본 전용 사각형 난간 재추출을 생략한다. 플랫폼 바닥까지 사각형으로 덮어 궁수를 자르지 않는다.
 - 기존 한 타워의 쿨타임·피해량과 성공 발사마다 A/B 교대 규칙을 유지한다. 이미지가 별도 발사체나 전투 상태를 구현하지는 않는다.
 
-원본을 교체하는 경우 게임의 `game/art/sets/original/towers/archer/base_i_two_unit/` 아래 같은 이름의 PNG 4개와 메타데이터를 사용한다. 게임의 Art Studio 후보는 `flowforge/sets/village/towers/archer/base_i_two_unit/`에 납품했다.
+원본을 교체하는 경우 게임의 `game/art/sets/village/towers/archer/base_i_two_unit/` 아래 같은 이름의 PNG 4개와 메타데이터를 사용한다. 게임의 Art Studio 후보는 `flowforge/sets/village/towers/archer/base_i_two_unit/`에 납품했다.
 
 **Art Studio 연결:** 게임의 `ART_SET_ASSETS`에 기본 아처 I 후면·전면·궁수 A/B 4개 경로가 모두 등록되어 있다. 변경된 게임 빌드에서 Village 선택 후 Reload하면 기본 아처 I의 네 파일과 나머지 9종을 합친 38개 PNG가 함께 적용된다. `village: 38/38 textures`로 로딩 여부를 확인한다. Forest/Stone처럼 일부 파일만 있는 후보는 나머지에 내장 원본을 유지한다.
 
 ## 검수
 
-네 PNG의 정상 디코딩·RGBA·정확한 크기·투명도를 확인했다. Godot 4.6.3 headless에서 네 이미지를 로딩하고 ImageTexture 및 16개 AtlasTexture/SpriteFrames 프레임 생성, 빈 프레임·셀 가장자리 잘림 여부를 검사했다. 실제 게임의 좌표·배율·가림 순서를 재현한 합성 미리보기를 검수했다. 게임의 실제 아처 씬에서 네 텍스처 연결·Original 복귀·누락 파일 폴백 검사를 통과했고, `archer-01` 선택 스모크도 통과했다. 브라우저에서의 수동 플레이 검증은 별도다.
+네 PNG의 정상 디코딩·RGBA·정확한 크기·투명도를 확인했다. Godot 4.6.3 headless에서 네 이미지를 로딩하고 ImageTexture 및 16개 AtlasTexture/SpriteFrames 프레임 생성, 빈 프레임·셀 가장자리 잘림 여부를 검사했다. 실제 게임의 좌표·배율·가림 순서를 재현한 합성 미리보기를 검수했다. 게임의 실제 아처 씬에서 네 텍스처 연결·Built-in Village 복귀·누락 파일 폴백 검사를 통과했고, `archer-01` 선택 스모크도 통과했다. 브라우저에서의 수동 플레이 검증은 별도다.
 
 `assembled.png`는 투명 합성 예시, `preview.png`는 네 방향의 대기/공격 비교, `preview.webp`는 방향 전환·A/B 교대 포즈 미리보기다. 미리보기는 납품 PNG를 조립한 예시이며 실제 플레이 녹화가 아니다.

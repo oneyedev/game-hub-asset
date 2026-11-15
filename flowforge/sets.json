@@ -2,26 +2,8 @@
   "version": 1,
   "sets": [
     {
-      "id": "forest",
-      "label": "A · Forest",
-      "root": "flowforge/sets/forest/",
-      "overrides": {},
-      "files": [
-        "towers/archer/base_i_two_unit/tower_back.png"
-      ]
-    },
-    {
-      "id": "stone",
-      "label": "B · Stone",
-      "root": "flowforge/sets/stone/",
-      "overrides": {},
-      "files": [
-        "towers/archer/base_i_two_unit/tower_back.png"
-      ]
-    },
-    {
       "id": "village",
-      "label": "C · Village",
+      "label": "Village",
       "root": "flowforge/sets/village/",
       "overrides": {},
       "files": [
