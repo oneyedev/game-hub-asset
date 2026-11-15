@@ -12,12 +12,6 @@
       "label": "B · Stone",
       "root": "flowforge/sets/stone/",
       "overrides": {}
-    },
-    {
-      "id": "c",
-      "label": "C · Test",
-      "root": "flowforge/sets/c/",
-      "overrides": {}
     }
   ]
 }
