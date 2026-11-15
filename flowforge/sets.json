@@ -12,6 +12,12 @@
       "label": "B · Stone",
       "root": "flowforge/sets/stone/",
       "overrides": {}
+    },
+    {
+      "id": "village",
+      "label": "C · Village",
+      "root": "flowforge/sets/village/",
+      "overrides": {}
     }
   ]
 }
