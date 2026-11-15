@@ -19,9 +19,9 @@
     ],
     "facings": [
       "front",
-      "left",
       "right",
-      "back"
+      "back",
+      "left"
     ],
     "rows": [
       "idle",
