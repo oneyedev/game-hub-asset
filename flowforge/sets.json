@@ -18,14 +18,6 @@
       "label": "C · Test",
       "root": "flowforge/sets/c/",
       "overrides": {}
-    },
-    {
-      "id": "forest-archer-stone",
-      "label": "Forest · Archer variation",
-      "parent": "forest",
-      "overrides": {
-        "res://game/art/sets/original/towers/archer/base_i_two_unit/tower_back.png": "flowforge/sets/stone/towers/archer/base_i_two_unit/tower_back.png"
-      }
     }
   ]
 }
