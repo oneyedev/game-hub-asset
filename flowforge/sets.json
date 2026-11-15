@@ -5,32 +5,26 @@
       "id": "forest",
       "label": "A · Forest",
       "root": "flowforge/sets/forest/",
-      "overrides": {
-        "res://game/art/archer/base_i_two_unit/tower_back.png": "flowforge/archer/base-i/variant-a/tower_back.png"
-      }
+      "overrides": {}
     },
     {
       "id": "stone",
       "label": "B · Stone",
       "root": "flowforge/sets/stone/",
-      "overrides": {
-        "res://game/art/archer/base_i_two_unit/tower_back.png": "flowforge/archer/base-i/variant-b/tower_back.png"
-      }
+      "overrides": {}
     },
     {
       "id": "c",
       "label": "C · Test",
       "root": "flowforge/sets/c/",
-      "overrides": {
-        "res://game/art/archer/base_i_two_unit/tower_back.png": "flowforge/archer/base-i/variant-a/tower_back.png"
-      }
+      "overrides": {}
     },
     {
       "id": "forest-archer-stone",
       "label": "Forest · Archer variation",
       "parent": "forest",
       "overrides": {
-        "res://game/art/archer/base_i_two_unit/tower_back.png": "flowforge/archer/base-i/variant-b/tower_back.png"
+        "res://game/art/sets/original/towers/archer/base_i_two_unit/tower_back.png": "flowforge/sets/stone/towers/archer/base_i_two_unit/tower_back.png"
       }
     }
   ]
