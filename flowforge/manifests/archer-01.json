@@ -1,3 +1,17 @@
 {
-  "res://game/art/archer/base_i_two_unit/tower_back.png": "https://raw.githubusercontent.com/oneyedev/game-hub-asset/main/flowforge/archer/base-i/tower_back.png"
+  "default": "A",
+  "variants": {
+    "A": {
+      "label": "A · 숲속 목조",
+      "textures": {
+        "res://game/art/archer/base_i_two_unit/tower_back.png": "https://raw.githubusercontent.com/oneyedev/game-hub-asset/main/flowforge/archer/base-i/variant-a/tower_back.png"
+      }
+    },
+    "B": {
+      "label": "B · 석조 요새",
+      "textures": {
+        "res://game/art/archer/base_i_two_unit/tower_back.png": "https://raw.githubusercontent.com/oneyedev/game-hub-asset/main/flowforge/archer/base-i/variant-b/tower_back.png"
+      }
+    }
+  }
 }
