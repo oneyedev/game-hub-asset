@@ -44,7 +44,31 @@
         "towers/archer/sniper_one_unit/tower_front.png",
         "towers/archer/spirit_one_unit/archer_a.png",
         "towers/archer/spirit_one_unit/tower_back.png",
-        "towers/archer/spirit_one_unit/tower_front.png"
+        "towers/archer/spirit_one_unit/tower_front.png",
+        "towers/mage/base_i/tower_back.png",
+        "towers/mage/base_i/mage.png",
+        "towers/mage/base_i/tower_front.png",
+        "towers/mage/base_ii/tower_back.png",
+        "towers/mage/base_ii/mage.png",
+        "towers/mage/base_ii/tower_front.png",
+        "towers/mage/sorceress/tower_back.png",
+        "towers/mage/sorceress/mage.png",
+        "towers/mage/sorceress/tower_front.png",
+        "towers/mage/fire/tower_back.png",
+        "towers/mage/fire/mage.png",
+        "towers/mage/fire/tower_front.png",
+        "towers/mage/arcane/tower_back.png",
+        "towers/mage/arcane/mage.png",
+        "towers/mage/arcane/tower_front.png",
+        "towers/mage/dark/tower_back.png",
+        "towers/mage/dark/mage.png",
+        "towers/mage/dark/tower_front.png",
+        "towers/mage/curse/tower_back.png",
+        "towers/mage/curse/mage.png",
+        "towers/mage/curse/tower_front.png",
+        "towers/mage/decay/tower_back.png",
+        "towers/mage/decay/mage.png",
+        "towers/mage/decay/tower_front.png"
       ]
     }
   ]

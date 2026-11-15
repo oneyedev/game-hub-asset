@@ -5,6 +5,7 @@ Flowforge의 게임용 디자인 세트와 원격 수정 후보를 관리한다.
 - [Flowforge 제작 가이드](flowforge/README.md)
 - [Village 파일 규격·전체 미리보기](flowforge/sets/village/README.md)
 - [원격 세트 목록](flowforge/sets.json)
+- [마법사 노스킬 8형태 후보](flowforge/sets/village/towers/mage/README.md) — `mage-01`의 Art Studio에서 `village`로 비교한다. 아처 내장본과 별개인 원격 PNG 24개다.
 
 게임은 네트워크 없이 내장 Village를 표시한다. Art Studio의 **Built-in Village**는 내장본이고, **village**는 이 저장소 최신 수정본과의 선택적 비교다. 이 저장소의 이미지를 수정하고 Reload하면 원격 후보가 갱신되지만 이미 배포한 내장본은 바뀌지 않는다. 기본 에셋을 갱신하려면 게임 저장소의 고정 PNG·소스 해시를 갱신하고 빌드한다.
 

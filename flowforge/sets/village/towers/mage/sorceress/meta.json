@@ -1,0 +1,39 @@
+{
+  "profile": 2,
+  "form": "sorceress",
+  "status": "Art Studio candidate; mage-01 only",
+  "canvas": [
+    256,
+    256
+  ],
+  "actor_sheet": [
+    1024,
+    512
+  ],
+  "cell": [
+    256,
+    256
+  ],
+  "columns": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "rows": [
+    "idle",
+    "cast"
+  ],
+  "actors": 1,
+  "foot_anchor": [
+    128,
+    147
+  ],
+  "layer_order": [
+    "tower_back.png",
+    "mage.png",
+    "tower_front.png"
+  ],
+  "render_scale": 0.7,
+  "provenance": "Original artwork generated with OpenAI image generation from the user wizard lineup and Village style reference. Atlas extraction, fixed feet alignment, and front contour masks use the same building pixels; no external purchased asset."
+}

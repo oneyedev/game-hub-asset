@@ -17,6 +17,8 @@
 
 ## 원격 후보
 
+마법사 노스킬 `mage-01`의 [8형태 후보](sets/village/towers/mage/README.md)는 `towers/mage/`에 있다. 후면/전면은 256×256, 인물은 1024×512(256px 셀), 열 정면/오른쪽/후면/왼쪽, 행 대기/시전이며 형태마다 1명이다. 카탈로그는 아처 38개와 마법사 24개를 포함한다. 마법사는 아직 내장하지 않았고 Art Studio의 `village` 선택에만 표시한다.
+
 경로는 `flowforge/sets/<id>/towers/archer/<tower-folder>/<file>.png`다. [sets.json](sets.json)의 `root`, `files`, 필요한 `overrides`를 갱신한다. 게임 매핑 키는 `res://game/art/sets/village/` 아래의 실제 내장 리소스 경로다. 새 타워 종류·파일 종류를 추가하면 게임 코드 연결도 필요하다. 몬스터·환경 등 다른 범주는 별도 매핑을 확인한다.
 
 Art Studio를 열어 **village → Reload/F6**로 원격 수정본을 비교하고 **Built-in Village**로 내장본에 복귀한다. Studio가 닫혀 있으면 시작 시 원격 요청을 하지 않는다. 네트워크·디코딩 실패 시 내장 PNG를 유지한다.
