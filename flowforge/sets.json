@@ -5,19 +5,65 @@
       "id": "forest",
       "label": "A · Forest",
       "root": "flowforge/sets/forest/",
-      "overrides": {}
+      "overrides": {},
+      "files": [
+        "towers/archer/base_i_two_unit/tower_back.png"
+      ]
     },
     {
       "id": "stone",
       "label": "B · Stone",
       "root": "flowforge/sets/stone/",
-      "overrides": {}
+      "overrides": {},
+      "files": [
+        "towers/archer/base_i_two_unit/tower_back.png"
+      ]
     },
     {
       "id": "village",
       "label": "C · Village",
       "root": "flowforge/sets/village/",
-      "overrides": {}
+      "overrides": {},
+      "files": [
+        "towers/archer/base_i_two_unit/archer_a.png",
+        "towers/archer/base_i_two_unit/archer_b.png",
+        "towers/archer/base_i_two_unit/tower_back.png",
+        "towers/archer/base_i_two_unit/tower_front.png",
+        "towers/archer/base_ii_two_unit/archer_a.png",
+        "towers/archer/base_ii_two_unit/archer_b.png",
+        "towers/archer/base_ii_two_unit/tower_back.png",
+        "towers/archer/base_ii_two_unit/tower_front.png",
+        "towers/archer/dwarf_i_two_unit/archer_a.png",
+        "towers/archer/dwarf_i_two_unit/archer_b.png",
+        "towers/archer/dwarf_i_two_unit/tower_back.png",
+        "towers/archer/dwarf_i_two_unit/tower_front.png",
+        "towers/archer/dwarf_ii_two_unit/archer_a.png",
+        "towers/archer/dwarf_ii_two_unit/archer_b.png",
+        "towers/archer/dwarf_ii_two_unit/tower_back.png",
+        "towers/archer/dwarf_ii_two_unit/tower_front.png",
+        "towers/archer/elf_ii_two_unit/archer_a.png",
+        "towers/archer/elf_ii_two_unit/archer_b.png",
+        "towers/archer/elf_ii_two_unit/tower_back.png",
+        "towers/archer/elf_ii_two_unit/tower_front.png",
+        "towers/archer/elf_two_unit/archer_a.png",
+        "towers/archer/elf_two_unit/archer_b.png",
+        "towers/archer/elf_two_unit/tower_back.png",
+        "towers/archer/elf_two_unit/tower_front.png",
+        "towers/archer/gatling_two_unit/loader.png",
+        "towers/archer/gatling_two_unit/operator.png",
+        "towers/archer/gatling_two_unit/rotary_cannon.png",
+        "towers/archer/gatling_two_unit/tower_back.png",
+        "towers/archer/gatling_two_unit/tower_front.png",
+        "towers/archer/rune_one_unit/archer_a.png",
+        "towers/archer/rune_one_unit/tower_back.png",
+        "towers/archer/rune_one_unit/tower_front.png",
+        "towers/archer/sniper_one_unit/sniper.png",
+        "towers/archer/sniper_one_unit/tower_back.png",
+        "towers/archer/sniper_one_unit/tower_front.png",
+        "towers/archer/spirit_one_unit/archer_a.png",
+        "towers/archer/spirit_one_unit/tower_back.png",
+        "towers/archer/spirit_one_unit/tower_front.png"
+      ]
     }
   ]
 }

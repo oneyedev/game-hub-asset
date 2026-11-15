@@ -28,7 +28,7 @@
 
 원본을 교체하는 경우 게임의 `game/art/sets/original/towers/archer/base_i_two_unit/` 아래 같은 이름의 PNG 4개와 메타데이터를 사용한다. 게임의 Art Studio 후보는 `flowforge/sets/village/towers/archer/base_i_two_unit/`에 납품했다.
 
-**Art Studio 연결:** 게임의 `ART_SET_ASSETS`에 기본 아처 I 후면·전면·궁수 A/B 4개 경로가 모두 등록되어 있다. 변경된 게임 빌드에서 Village 선택 후 Reload하면 네 파일이 함께 적용된다. `village: 4/4 textures`로 로딩 여부를 확인한다. Forest/Stone처럼 일부 파일만 있는 후보는 나머지에 내장 원본을 유지한다.
+**Art Studio 연결:** 게임의 `ART_SET_ASSETS`에 기본 아처 I 후면·전면·궁수 A/B 4개 경로가 모두 등록되어 있다. 변경된 게임 빌드에서 Village 선택 후 Reload하면 기본 아처 I의 네 파일과 나머지 9종을 합친 38개 PNG가 함께 적용된다. `village: 38/38 textures`로 로딩 여부를 확인한다. Forest/Stone처럼 일부 파일만 있는 후보는 나머지에 내장 원본을 유지한다.
 
 ## 검수
 

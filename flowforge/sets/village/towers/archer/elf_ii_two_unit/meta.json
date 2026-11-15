@@ -1,0 +1,54 @@
+{
+  "id": "elf_ii",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png",
+    "archer_b.png"
+  ],
+  "anchors": [
+    [
+      88,
+      137.14987714987717
+    ],
+    [
+      170,
+      136.94178794178794
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "archer_b.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building."
+}

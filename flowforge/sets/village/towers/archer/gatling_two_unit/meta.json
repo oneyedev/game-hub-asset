@@ -1,0 +1,60 @@
+{
+  "id": "gatling",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "operator.png",
+    "loader.png",
+    "rotary_cannon.png"
+  ],
+  "anchors": [
+    [
+      111,
+      151.8810298102981
+    ],
+    [
+      55,
+      220
+    ],
+    [
+      176,
+      136.35277483209615
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "loader.png",
+    "operator.png",
+    "rotary_cannon.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building."
+}
