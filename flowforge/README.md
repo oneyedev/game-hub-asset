@@ -28,7 +28,7 @@ flowforge/
   sets/
     forest/
       towers/
-        archer/base-i/tower_back.png
+        archer/base_i_two_unit/tower_back.png
       monsters/
       environment/
     stone/
@@ -37,7 +37,7 @@ flowforge/
       monsters/
       environment/
 ```
-새 디자인 세트 추가 시 `flowforge/sets.json`의 `sets` 배열에 `id`, `label`, `root`를 추가한다. 게임 재배포 없이 Art Studio의 Reload로 목록을 다시 읽는다. 부모가 있는 세부 후보는 `parent`를 지정하고 부모 항목 뒤에 배치한다. 위 `sets/` 경로는 **확장할 때 사용할 규약**이다. 지금은 아래 기존 파일을 **`sets.json`의 `overrides`**로 연결해 사용한다.
+새 디자인 세트 추가 시 `flowforge/sets.json`의 `sets` 배열에 `id`, `label`, `root`를 추가한다. 게임 재배포 없이 Art Studio의 Reload로 목록을 다시 읽는다. 부모가 있는 세부 후보는 `parent`를 지정하고 부모 항목 뒤에 배치한다. 위 `sets/` 경로는 현재 사용 중인 표준이다. Forest/Stone/C의 기본 아처 후면 PNG는 이 폴더에 실제로 존재하며, `sets.json`의 `root`로 읽는다.
 
 | 세트 | 현재 실제 참조 파일 | 게임 내 원본 |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ flowforge/
 | Stone(B) | `flowforge/archer/base-i/variant-b/tower_back.png` | 동일 |
 | Forest → 아처 세부 후보 | 위 Stone(B) 파일을 아처에만 덮어씀 | 동일 |
 
-현재 A/B 파일은 **기능 확인용 도형**이지 완성된 타워 디자인이 아니다. `flowforge/sets.json`은 세트 발견용 목록이며, 새 이미지 리소스 매핑은 게임 코드의 `ART_SET_ASSETS`에 여전히 필요하다. 신규 파일을 `sets/forest/...`에 올리더라도 `sets.json`의 기존 `overrides`가 우선하면 화면에는 기존 파일이 나타난다. 경로 변경 시 게임 코드 담당자에게 매핑 수정이 필요하다.
+현재 A/B/C 파일은 **기능 확인용 도형**이지 완성된 타워 디자인이 아니다. `flowforge/sets.json`은 세트 발견용 목록이며, 새 이미지 리소스 매핑은 게임 코드의 `ART_SET_ASSETS`에 여전히 필요하다. 신규 파일을 `sets/forest/...`에 올리더라도 세부 후보의 `overrides`가 우선하면 해당 후보에서 덮어쓴 파일이 나타난다. 경로 변경 시 게임 코드 담당자에게 매핑 수정이 필요하다.
 
 ## 타워 제작 템플릿: 원본을 기준으로 납품
 
@@ -110,4 +110,4 @@ flowforge/
 
 - 세트별 파일명과 `towers/`, `monsters/`, `environment/` 이하 상대 경로를 통일한다.
 - 임시 `overrides`가 남아 있으면 폴더를 복사해도 그 파일은 복사본이 아닌 외부 경로를 참조하므로, 정식 세트 PNG가 준비되면 제거한다.
-- **현재 게임의 내장 `game/art/` 경로는 아직 세트 폴더와 일치하지 않는다.** 전체 폴더를 게임 빌드 원본으로 사용하려면 게임의 모든 `res://` 참조와 애니메이션 리소스를 함께 이전하고 Godot 임포트/빌드를 검증해야 한다. 폴더 동기화만으로 자동 전환된다고 간주하지 않는다.
+- 게임의 `game/art/sets/original/`에 같은 상대 폴더 구조를 두고, 디자인 후보는 `game/art/sets/<set-id>/`로 동기화한다. 실제 출시 세트를 전환하려면 게임 리소스 참조의 대상 세트 선택 및 Godot 임포트/빌드 검증이 필요하다. 단순 복사만으로 출시 세트가 바뀌지는 않는다.
