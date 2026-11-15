@@ -34,12 +34,12 @@
   ],
   "anchors": [
     [
-      88,
-      131.4630434782609
+      84.8,
+      129.86008695652174
     ],
     [
-      170,
-      131.37379862700226
+      173.36,
+      129.76370251716244
     ]
   ],
   "humans": 2,
@@ -50,5 +50,12 @@
     "front"
   ],
   "shared_cooldown": true,
-  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building."
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "painted_footprint_adjustment": {
+    "scale": 1.08,
+    "pivot": [
+      128,
+      151.5
+    ]
+  }
 }
