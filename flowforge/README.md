@@ -37,7 +37,7 @@ flowforge/
       monsters/
       environment/
 ```
-위 `sets/` 경로는 **확장할 때 사용할 규약**이다. 지금은 아래 기존 파일을 코드의 `overrides`로 연결해 사용한다.
+새 디자인 세트 추가 시 `flowforge/sets.json`의 `sets` 배열에 `id`, `label`, `root`를 추가한다. 게임 재배포 없이 Art Studio의 Reload로 목록을 다시 읽는다. 부모가 있는 세부 후보는 `parent`를 지정하고 부모 항목 뒤에 배치한다. 위 `sets/` 경로는 **확장할 때 사용할 규약**이다. 지금은 아래 기존 파일을 코드의 `overrides`로 연결해 사용한다.
 
 | 세트 | 현재 실제 참조 파일 | 게임 내 원본 |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ flowforge/
 | Stone(B) | `flowforge/archer/base-i/variant-b/tower_back.png` | 동일 |
 | Forest → 아처 세부 후보 | 위 Stone(B) 파일을 아처에만 덮어씀 | 동일 |
 
-현재 A/B 파일은 **기능 확인용 도형**이지 완성된 타워 디자인이 아니다. 신규 파일을 `sets/forest/...`에 올리더라도 `ART_SETS`의 기존 `overrides`가 우선하면 화면에는 기존 파일이 나타난다. 경로 변경 시 게임 코드 담당자에게 매핑 수정이 필요하다.
+현재 A/B 파일은 **기능 확인용 도형**이지 완성된 타워 디자인이 아니다. `flowforge/sets.json`은 세트 발견용 목록이며, 새 이미지 리소스 매핑은 게임 코드의 `ART_SET_ASSETS`에 여전히 필요하다. 신규 파일을 `sets/forest/...`에 올리더라도 `ART_SETS`의 기존 `overrides`가 우선하면 화면에는 기존 파일이 나타난다. 경로 변경 시 게임 코드 담당자에게 매핑 수정이 필요하다.
 
 ## 타워 제작 템플릿: 원본을 기준으로 납품
 
