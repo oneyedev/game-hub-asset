@@ -1,0 +1,32 @@
+{
+  "id": "siege_bolt",
+  "size": 58,
+  "flight": {
+    "canvas": [
+      256,
+      64
+    ],
+    "cell": [
+      64,
+      64
+    ],
+    "frames": 4,
+    "pivot": [
+      48,
+      32
+    ]
+  },
+  "impact": {
+    "canvas": [
+      128,
+      32
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "duration": 0.24
+  },
+  "provenance": "Original SVG reference art. Fixed-ground explosion for shells; one effect per actual pierced victim for bolts. No fake bounces or skills."
+}

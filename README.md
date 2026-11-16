@@ -12,4 +12,4 @@ Flowforge의 게임용 디자인 세트와 원격 수정 후보를 관리한다.
 
 납품은 알파 PNG, 정확한 캔버스·프레임 순서·기준점·여백을 유지한다. 후면·인물/무기·전면을 합치지 않는다. 원격 파일 추가 시 `sets.json`의 `files`와 게임의 리소스 매핑을 확인한다. 출처·라이선스를 보존한다.
 
-구형 아처 시험 PNG, Forest/Stone 도형 후보, 전용 `archer-01` 매니페스트는 삭제했다. 현재 카탈로그는 Village와 승인된 투사체 번들 `projectiles-v1`을 제공한다.
+구형 아처 시험 PNG, Forest/Stone 도형 후보, 전용 `archer-01` 매니페스트는 삭제했다. 현재 카탈로그는 Village, 승인된 투사체 번들 `projectiles-v1`, 공성 디자인 후보 `siege-v1`을 제공한다. [공성 가이드](flowforge/SIEGE_ART.md)를 따른다.
