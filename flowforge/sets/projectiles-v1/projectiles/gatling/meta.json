@@ -39,5 +39,10 @@
     ],
     "duration": 0.24
   },
-  "provenance": "Original procedural SVG reference artwork; source SVGs included; no external assets. Visual animation never defines combat cadence or damage."
+  "provenance": "Original procedural SVG reference artwork; source SVGs included; no external assets. Visual animation never defines combat cadence or damage.",
+  "status": "approved-default",
+  "scope": [
+    "archer-01",
+    "mage-01"
+  ]
 }

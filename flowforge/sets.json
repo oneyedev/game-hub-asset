@@ -73,7 +73,7 @@
     },
     {
       "id": "projectiles-v1",
-      "label": "Projectile reference v1",
+      "label": "Projectile v1 (bundled)",
       "root": "flowforge/sets/projectiles-v1/",
       "files": [
         "projectiles/arrow/flight.png",
