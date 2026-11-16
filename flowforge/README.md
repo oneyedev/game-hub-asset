@@ -2,7 +2,7 @@
 
 ## 채택된 기본 세트
 
-[Village](sets/village/README.md)의 아처 성장형 10종 PNG 38개는 게임 빌드에 포함된다. 게임 시작 시 원격 다운로드 없이 같은 모습을 표시한다. 원격 후보 `village`는 내장본과 최신 수정본을 비교하기 위해 남긴다. Forest/Stone과 구형 전용 매니페스트·시험 PNG는 제거했다.
+[Village](sets/village/README.md)의 아처 성장형 10종 38 PNG와 마법사 8형태 24 PNG, 총 62개는 게임 빌드에 포함된다. 게임 시작 시 원격 다운로드 없이 같은 모습을 표시한다. 원격 후보 `village`는 내장본과 최신 수정본을 비교하기 위해 남긴다. Forest/Stone과 구형 전용 매니페스트·시험 PNG는 제거했다.
 
 ## 현재 교체 규격
 
@@ -17,7 +17,7 @@
 
 ## 원격 후보
 
-마법사 노스킬 `mage-01`의 [8형태 후보](sets/village/towers/mage/README.md)는 `towers/mage/`에 있다. 후면/전면은 256×256, 인물은 1024×512(256px 셀), 열 정면/오른쪽/후면/왼쪽, 행 대기/시전이며 형태마다 1명이다. 카탈로그는 아처 38개와 마법사 24개를 포함한다. 마법사는 아직 내장하지 않았고 Art Studio의 `village` 선택에만 표시한다.
+마법사 노스킬 `mage-01`의 [8형태](sets/village/towers/mage/README.md)는 `towers/mage/`에 있다. 후면/전면은 256×256, 인물은 1024×512(256px 셀), 열 정면/오른쪽/후면/왼쪽, 행 대기/시전이며 형태마다 1명이다. 카탈로그는 아처 38개와 마법사 24개를 포함한다. 마법사도 `mage-01`의 기본 번들에 포함되며 Art Studio 없이 표시한다.
 
 경로는 `flowforge/sets/<id>/towers/archer/<tower-folder>/<file>.png`다. [sets.json](sets.json)의 `root`, `files`, 필요한 `overrides`를 갱신한다. 게임 매핑 키는 `res://game/art/sets/village/` 아래의 실제 내장 리소스 경로다. 새 타워 종류·파일 종류를 추가하면 게임 코드 연결도 필요하다. 몬스터·환경 등 다른 범주는 별도 매핑을 확인한다.
 
@@ -27,4 +27,4 @@ Art Studio를 열어 **village → Reload/F6**로 원격 수정본을 비교하�
 
 ## 내장본 갱신
 
-원격 수정이 채택되면 정확한 에셋 커밋의 PNG를 `game/art/sets/village/`에 동기화하고 `source.json`의 SHA-256을 갱신한다. 게임 리소스 참조와 렌더링 배율을 확인한 뒤 `archer-01` 선택 검증과 실제 PCK 내 38개 리소스 로딩 검증을 통과시켜 배포한다. 폴더 복사만으로 기본 세트가 전환되지는 않는다.
+원격 수정이 채택되면 정확한 에셋 커밋의 PNG를 `game/art/sets/village/`에 동기화하고 `source.json`의 SHA-256을 갱신한다. 게임 리소스 참조와 렌더링 배율을 확인한 뒤 `archer-01`·`mage-01` 선택 검증과 실제 PCK 내 62개 리소스 로딩 검증을 통과시켜 배포한다. 폴더 복사만으로 기본 세트가 전환되지는 않는다.

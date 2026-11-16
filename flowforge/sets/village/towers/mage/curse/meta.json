@@ -1,7 +1,7 @@
 {
   "profile": 6,
   "form": "curse",
-  "status": "Art Studio candidate; mage-01 only",
+  "status": "Bundled default in games-hub mage-01; optional remote comparison",
   "canvas": [
     256,
     256
