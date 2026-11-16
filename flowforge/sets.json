@@ -109,7 +109,7 @@
     },
     {
       "id": "siege-v1",
-      "label": "Siege v1 (studio)",
+      "label": "Siege v1 (bundled)",
       "root": "flowforge/sets/siege-v1/",
       "overrides": {},
       "files": [

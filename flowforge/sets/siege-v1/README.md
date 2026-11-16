@@ -1,6 +1,6 @@
-# Siege v1 — Studio candidate
+# Siege v1 — Approved default
 
-[공성 제작 가이드](../../SIEGE_ART.md)를 따른다. 게임 공성 노스킬 `siege-01`에서 Art Studio → `siege-v1`을 선택한다. 메인 번들 채택 전 비교용 세트다.
+[공성 제작 가이드](../../SIEGE_ART.md)를 따른다. 게임 공성 노스킬 `siege-01`에서 Art Studio → `siege-v1`을 선택한다. 승인된 메인 번들이며 Studio 선택·네트워크 없이 표시한다.
 
 - `towers/siege/`: 승인 콘셉트 10종 × 건물 후면·전면·무기·조작수·장전수 = 50 PNG.
 - `projectiles/`: 철포탄·중병기 포탄·발리스타 볼트·서커스 포탄 = 8 PNG. [SVG 생성 도구](../../tools/build_siege_projectiles.py).
