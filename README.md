@@ -4,6 +4,7 @@ Flowforge의 게임용 디자인 세트와 원격 수정 후보를 관리한다.
 
 - [Flowforge 제작 가이드](flowforge/README.md)
 - [Village 파일 규격·전체 미리보기](flowforge/sets/village/README.md)
+- [타워 투사체·광선·명중 연출 규격](flowforge/PROJECTILES.md)
 - [원격 세트 목록](flowforge/sets.json)
 - [마법사 노스킬 8형태](flowforge/sets/village/towers/mage/README.md) — `mage-01`의 기본 번들 PNG 24개다. Art Studio의 `village`는 원격 수정본 비교에 사용한다.
 
@@ -11,4 +12,4 @@ Flowforge의 게임용 디자인 세트와 원격 수정 후보를 관리한다.
 
 납품은 알파 PNG, 정확한 캔버스·프레임 순서·기준점·여백을 유지한다. 후면·인물/무기·전면을 합치지 않는다. 원격 파일 추가 시 `sets.json`의 `files`와 게임의 리소스 매핑을 확인한다. 출처·라이선스를 보존한다.
 
-구형 아처 시험 PNG, Forest/Stone 도형 후보, 전용 `archer-01` 매니페스트는 삭제했다. 현재 카탈로그는 Village만 제공한다.
+구형 아처 시험 PNG, Forest/Stone 도형 후보, 전용 `archer-01` 매니페스트는 삭제했다. 현재 카탈로그는 Village와 투사체 기준 샘플 `projectiles-v1`을 제공한다.

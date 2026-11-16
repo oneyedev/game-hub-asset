@@ -1,0 +1,86 @@
+[
+  {
+    "id": "arrow",
+    "label": "기본 화살",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "elf",
+    "label": "엘프 잎날 화살",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "spirit",
+    "label": "정령 화살",
+    "size": 52,
+    "beam": false
+  },
+  {
+    "id": "rune",
+    "label": "룬 화살",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "bullet",
+    "label": "드워프 총탄",
+    "size": 40,
+    "beam": false
+  },
+  {
+    "id": "gatling",
+    "label": "개틀링 예광탄",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "sniper",
+    "label": "저격탄",
+    "size": 64,
+    "beam": false
+  },
+  {
+    "id": "magic",
+    "label": "기본 마법탄",
+    "size": 44,
+    "beam": false
+  },
+  {
+    "id": "sorcery",
+    "label": "소서리스 마법탄",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "fire",
+    "label": "화염구",
+    "size": 60,
+    "beam": false
+  },
+  {
+    "id": "arcane",
+    "label": "비전 지속광선",
+    "size": 44,
+    "beam": true
+  },
+  {
+    "id": "dark",
+    "label": "흑마법탄",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "curse",
+    "label": "저주탄",
+    "size": 48,
+    "beam": false
+  },
+  {
+    "id": "decay",
+    "label": "부패탄",
+    "size": 52,
+    "beam": false
+  }
+]

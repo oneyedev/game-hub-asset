@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "rune",
+  "label": "룬 화살",
+  "kind": "arrow",
+  "flight": {
+    "file": "flight.png",
+    "canvas": [
+      256,
+      64
+    ],
+    "cell": [
+      64,
+      64
+    ],
+    "frames": 4,
+    "pivot": [
+      48,
+      32
+    ],
+    "forward": "+X",
+    "fps": 12,
+    "draw_size": 48
+  },
+  "impact": {
+    "file": "impact.png",
+    "canvas": [
+      128,
+      32
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "pivot": [
+      16,
+      16
+    ],
+    "duration": 0.24
+  },
+  "provenance": "Original procedural SVG reference artwork; source SVGs included; no external assets. Visual animation never defines combat cadence or damage."
+}

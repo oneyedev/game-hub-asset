@@ -70,6 +70,42 @@
         "towers/mage/decay/mage.png",
         "towers/mage/decay/tower_front.png"
       ]
+    },
+    {
+      "id": "projectiles-v1",
+      "label": "Projectile reference v1",
+      "root": "flowforge/sets/projectiles-v1/",
+      "files": [
+        "projectiles/arrow/flight.png",
+        "projectiles/arrow/impact.png",
+        "projectiles/elf/flight.png",
+        "projectiles/elf/impact.png",
+        "projectiles/spirit/flight.png",
+        "projectiles/spirit/impact.png",
+        "projectiles/rune/flight.png",
+        "projectiles/rune/impact.png",
+        "projectiles/bullet/flight.png",
+        "projectiles/bullet/impact.png",
+        "projectiles/gatling/flight.png",
+        "projectiles/gatling/impact.png",
+        "projectiles/sniper/flight.png",
+        "projectiles/sniper/impact.png",
+        "projectiles/magic/flight.png",
+        "projectiles/magic/impact.png",
+        "projectiles/sorcery/flight.png",
+        "projectiles/sorcery/impact.png",
+        "projectiles/fire/flight.png",
+        "projectiles/fire/impact.png",
+        "projectiles/arcane/flight.png",
+        "projectiles/arcane/impact.png",
+        "projectiles/dark/flight.png",
+        "projectiles/dark/impact.png",
+        "projectiles/curse/flight.png",
+        "projectiles/curse/impact.png",
+        "projectiles/decay/flight.png",
+        "projectiles/decay/impact.png"
+      ],
+      "overrides": {}
     }
   ]
 }
