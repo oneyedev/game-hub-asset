@@ -43,5 +43,9 @@
   ],
   "fixed_specialization_props": "Saw/spring, gantry/claw/miniturret, drill/tunnel, canvas tent remain in building, inactive without skill purchase.",
   "source_atlas": "exec-30256e92-ecb1-43d2-929e-990c438976f8.png",
-  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization."
+  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization.",
+  "tool_scale": 0.45918367346938777,
+  "worker_scales": [
+    0.34782608695652173
+  ]
 }

@@ -53,5 +53,10 @@
   "source_atlas": "exec-dfb4e06b-87dc-42c4-9529-96824ccdcf9e.png",
   "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization.",
   "base_source_atlas": "exec-283553b6-8690-4674-9c95-b72035f839ad.png",
-  "front_lip": "Exact base pixels of the front tunnel arch; tool rests on arch crown and workers remain on side ledges."
+  "front_lip": "Exact base pixels of the front tunnel arch; tool rests on arch crown and workers remain on side ledges.",
+  "tool_scale": 0.40358744394618834,
+  "worker_scales": [
+    0.40764331210191085,
+    0.41830065359477125
+  ]
 }
