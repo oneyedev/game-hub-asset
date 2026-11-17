@@ -1,0 +1,32 @@
+{
+  "id": "engineer_stone",
+  "status": "studio-candidate",
+  "flight": {
+    "canvas": [
+      256,
+      64
+    ],
+    "cell": [
+      64,
+      64
+    ],
+    "frames": 4,
+    "pivot": [
+      48,
+      32
+    ]
+  },
+  "impact": {
+    "canvas": [
+      128,
+      32
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "duration": 0.24
+  },
+  "provenance": "Original SVG reference. Physical tool slug/stone; cyan marks an actual empowered third shot, never adds damage or stun."
+}

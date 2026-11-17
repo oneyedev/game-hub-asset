@@ -1,0 +1,47 @@
+{
+  "form": "gnome_i",
+  "status": "studio-candidate",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "tool_rows": [
+    "idle",
+    "work"
+  ],
+  "crew_count": 1,
+  "platform_y": 175,
+  "tool_foot": [
+    144,
+    179
+  ],
+  "crew_feet": [
+    [
+      96,
+      184
+    ]
+  ],
+  "fixed_specialization_props": "Saw/spring, gantry/claw/miniturret, drill/tunnel, canvas tent remain in building, inactive without skill purchase.",
+  "source_atlas": "exec-5477f24a-ebda-4ef1-8a6f-eb0b60f9bce0.png",
+  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization."
+}
