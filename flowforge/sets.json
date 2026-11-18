@@ -175,7 +175,7 @@
     },
     {
       "id": "engineer-v1",
-      "label": "Engineer v1 (studio)",
+      "label": "Engineer v1 (bundled)",
       "root": "flowforge/sets/engineer-v1/",
       "overrides": {},
       "files": [

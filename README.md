@@ -14,4 +14,4 @@ Flowforge의 게임용 디자인 세트와 원격 수정 후보를 관리한다.
 
 구형 아처 시험 PNG, Forest/Stone 도형 후보, 전용 `archer-01` 매니페스트는 삭제했다. 현재 카탈로그는 Village, 승인된 투사체 번들 `projectiles-v1`, 공성 기본 번들 `siege-v1`을 제공한다. [공성 가이드](flowforge/SIEGE_ART.md)를 따른다.
 
-공병 후보 `engineer-v1`은 [공병 제작 가이드](flowforge/ENGINEER_ART.md)를 따른다. 공병 노스킬에서 10종·주민 14명과 기본 공격 연출을 비교한다.
+공병 기본 번들 `engineer-v1`은 [공병 제작 가이드](flowforge/ENGINEER_ART.md)를 따른다. 공병 노스킬에서 10종·주민 14명과 기본 공격 연출을 비교한다.
