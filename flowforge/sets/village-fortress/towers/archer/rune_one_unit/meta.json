@@ -52,9 +52,11 @@
   "projectile": "rune",
   "preview_feet": [
     [
-      128,
-      170
+      129,
+      226
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-0b08cdc9-ecca-44ba-9550-1b783e3c1b10.png"
+  ]
 }
