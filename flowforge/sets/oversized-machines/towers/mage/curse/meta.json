@@ -42,9 +42,11 @@
     "exec-57bd0cbb-b830-4e00-aa13-4476086822da.png"
   ],
   "preview_foot": [
-    129,
-    220
+    128,
+    216
   ],
   "projectile": "curse",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-8cceb837-2c9d-4d1a-b903-0daaaf5e17b7.png"
+  ]
 }
