@@ -64,17 +64,16 @@
   "projectile": "gatling",
   "preview_feet": [
     [
-      116,
-      133
+      111,
+      152
     ],
     [
-      74,
-      154
-    ],
-    [
-      157,
-      128
+      68,
+      170
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-9f42636e-86fd-48a6-942b-564b4346f3cb.png",
+    "exec-e7597ea4-c981-4ec7-b7e4-a6b43d1d41b3.png"
+  ]
 }
