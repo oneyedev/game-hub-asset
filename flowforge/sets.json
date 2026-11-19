@@ -384,7 +384,10 @@
         "towers/mage/base_ii/tower_front.png",
         "towers/mage/sorceress/mage.png",
         "towers/mage/sorceress/tower_back.png",
-        "towers/mage/sorceress/tower_front.png"
+        "towers/mage/sorceress/tower_front.png",
+        "towers/mage/sorceress_ii/mage.png",
+        "towers/mage/sorceress_ii/tower_back.png",
+        "towers/mage/sorceress_ii/tower_front.png"
       ]
     }
   ]
