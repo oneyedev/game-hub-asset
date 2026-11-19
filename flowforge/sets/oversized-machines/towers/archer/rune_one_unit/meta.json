@@ -53,8 +53,10 @@
   "preview_feet": [
     [
       128,
-      170
+      161
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-709e2291-3165-45e9-8c63-d061a9c804dc.png"
+  ]
 }
