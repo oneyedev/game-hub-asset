@@ -58,18 +58,16 @@
   ],
   "preview_feet": [
     [
-      78,
-      174
+      85,
+      212
     ],
     [
-      182,
-      182
-    ],
-    [
-      127,
-      144
+      165,
+      209
     ]
   ],
   "projectile": "siege_shell",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-8841ad39-db19-46ad-b140-bff78e15ed3b.png"
+  ]
 }
