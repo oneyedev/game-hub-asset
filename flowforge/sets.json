@@ -231,6 +231,8 @@
         "projectiles/rune/impact.png",
         "projectiles/sniper/flight.png",
         "projectiles/sniper/impact.png",
+        "projectiles/sorcery/flight.png",
+        "projectiles/sorcery/impact.png",
         "projectiles/spirit/flight.png",
         "projectiles/spirit/impact.png",
         "towers/archer/base_i_two_unit/archer_a.png",
@@ -276,7 +278,10 @@
         "towers/mage/base_i/tower_front.png",
         "towers/mage/base_ii/mage.png",
         "towers/mage/base_ii/tower_back.png",
-        "towers/mage/base_ii/tower_front.png"
+        "towers/mage/base_ii/tower_front.png",
+        "towers/mage/sorceress/mage.png",
+        "towers/mage/sorceress/tower_back.png",
+        "towers/mage/sorceress/tower_front.png"
       ]
     },
     {
