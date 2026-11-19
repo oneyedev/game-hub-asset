@@ -1,0 +1,72 @@
+{
+  "id": "base_ii",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      96,
+      96
+    ],
+    "size": [
+      384,
+      192
+    ],
+    "facings": [
+      "front",
+      "left",
+      "right",
+      "back"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png",
+    "archer_b.png"
+  ],
+  "anchors": [
+    [
+      108,
+      101
+    ],
+    [
+      148,
+      101
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "archer_b.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "painted_footprint_adjustment": {
+    "scale": 1.25,
+    "pivot": [
+      128,
+      101
+    ]
+  },
+  "candidate_render": {
+    "scale": 0.7,
+    "bottom_offset_y": 42.5,
+    "sprite_body_adjustment": 0.9142857142857143
+  },
+  "art_variant": "oversized-machines",
+  "source_images": [
+    "exec-9fafe7a8-274a-4311-aea8-305c69ef3ccb.png"
+  ],
+  "projectile": "arrow",
+  "actor_set": "cartoon-workshop"
+}

@@ -281,7 +281,11 @@
         "towers/archer/base_i_two_unit/archer_a.png",
         "towers/archer/base_i_two_unit/archer_b.png",
         "towers/archer/base_i_two_unit/tower_back.png",
-        "towers/archer/base_i_two_unit/tower_front.png"
+        "towers/archer/base_i_two_unit/tower_front.png",
+        "towers/archer/base_ii_two_unit/archer_a.png",
+        "towers/archer/base_ii_two_unit/archer_b.png",
+        "towers/archer/base_ii_two_unit/tower_back.png",
+        "towers/archer/base_ii_two_unit/tower_front.png"
       ]
     }
   ]
