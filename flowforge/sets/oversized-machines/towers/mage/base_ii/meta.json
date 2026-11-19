@@ -42,9 +42,11 @@
     "exec-57bd0cbb-b830-4e00-aa13-4476086822da.png"
   ],
   "preview_foot": [
-    131,
-    216
+    137,
+    183
   ],
   "projectile": "magic",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-8f48f08c-ec19-4e9c-b11b-7b5df71c8950.png"
+  ]
 }
