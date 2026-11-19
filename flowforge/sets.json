@@ -497,7 +497,12 @@
         "towers/siege/heavy_ii/operator.png",
         "towers/siege/heavy_ii/tower_back.png",
         "towers/siege/heavy_ii/tower_front.png",
-        "towers/siege/heavy_ii/weapon.png"
+        "towers/siege/heavy_ii/weapon.png",
+        "towers/siege/thunder/loader.png",
+        "towers/siege/thunder/operator.png",
+        "towers/siege/thunder/tower_back.png",
+        "towers/siege/thunder/tower_front.png",
+        "towers/siege/thunder/weapon.png"
       ]
     }
   ]
