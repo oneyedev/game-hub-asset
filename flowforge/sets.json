@@ -492,7 +492,12 @@
         "towers/siege/heavy_i/operator.png",
         "towers/siege/heavy_i/tower_back.png",
         "towers/siege/heavy_i/tower_front.png",
-        "towers/siege/heavy_i/weapon.png"
+        "towers/siege/heavy_i/weapon.png",
+        "towers/siege/heavy_ii/loader.png",
+        "towers/siege/heavy_ii/operator.png",
+        "towers/siege/heavy_ii/tower_back.png",
+        "towers/siege/heavy_ii/tower_front.png",
+        "towers/siege/heavy_ii/weapon.png"
       ]
     }
   ]
