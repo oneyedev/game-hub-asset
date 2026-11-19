@@ -1,0 +1,70 @@
+{
+  "form": "gnome_i",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "tool_rows": [
+    "idle",
+    "work"
+  ],
+  "crew_count": 1,
+  "platform_y": 175,
+  "tool_foot": [
+    144,
+    179
+  ],
+  "crew_feet": [
+    [
+      96,
+      184
+    ]
+  ],
+  "fixed_specialization_props": "Saw/spring, gantry/claw/miniturret, drill/tunnel, canvas tent remain in building, inactive without skill purchase.",
+  "source_atlas": "exec-5477f24a-ebda-4ef1-8a6f-eb0b60f9bce0.png",
+  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization.",
+  "tool_scale": 0.3930131004366812,
+  "worker_scales": [
+    0.35
+  ],
+  "art_variant": "cartoon-workshop",
+  "source_images": [
+    "exec-e56335d7-1de9-47ff-b4f9-7d2dbd4aafc3.png"
+  ],
+  "preview_feet": [
+    [
+      81,
+      214
+    ],
+    [
+      162,
+      213
+    ],
+    [
+      156,
+      201
+    ]
+  ],
+  "projectile": "engineer_bolt"
+}
