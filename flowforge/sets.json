@@ -216,7 +216,14 @@
       "id": "village-fortress",
       "label": "요새 마을",
       "root": "flowforge/sets/village-fortress/",
-      "files": []
+      "files": [
+        "projectiles/arrow/flight.png",
+        "projectiles/arrow/impact.png",
+        "towers/archer/base_i_two_unit/archer_a.png",
+        "towers/archer/base_i_two_unit/archer_b.png",
+        "towers/archer/base_i_two_unit/tower_back.png",
+        "towers/archer/base_i_two_unit/tower_front.png"
+      ]
     },
     {
       "id": "oversized-machines",
