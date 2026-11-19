@@ -108,7 +108,12 @@
         "towers/siege/base_i/operator.png",
         "towers/siege/base_i/tower_back.png",
         "towers/siege/base_i/tower_front.png",
-        "towers/siege/base_i/weapon.png"
+        "towers/siege/base_i/weapon.png",
+        "towers/siege/base_ii/loader.png",
+        "towers/siege/base_ii/operator.png",
+        "towers/siege/base_ii/tower_back.png",
+        "towers/siege/base_ii/tower_front.png",
+        "towers/siege/base_ii/weapon.png"
       ]
     },
     {
