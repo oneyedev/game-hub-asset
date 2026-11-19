@@ -42,9 +42,11 @@
     "exec-a576f287-1bc4-4942-9732-7ecc8eda7454.png"
   ],
   "preview_foot": [
-    125,
-    214
+    129,
+    207
   ],
   "projectile": "sorcery",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-0030e50a-da61-44a0-a929-94183cf7aeab.png"
+  ]
 }
