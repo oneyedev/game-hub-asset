@@ -42,9 +42,11 @@
     "exec-57bd0cbb-b830-4e00-aa13-4476086822da.png"
   ],
   "preview_foot": [
-    195,
-    151
+    110,
+    186
   ],
   "projectile": "decay",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-12a69dc7-317f-4980-831c-7f784976e9bd.png"
+  ]
 }
