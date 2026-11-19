@@ -1,0 +1,70 @@
+{
+  "id": "dwarf_i",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png",
+    "archer_b.png"
+  ],
+  "anchors": [
+    [
+      88,
+      139.37905520774046
+    ],
+    [
+      170,
+      129.06715993170178
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "archer_b.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "art_variant": "oversized-machines",
+  "source_images": [
+    "exec-9fafe7a8-274a-4311-aea8-305c69ef3ccb.png"
+  ],
+  "projectile": "bullet",
+  "preview_feet": [
+    [
+      104,
+      148
+    ],
+    [
+      151,
+      139
+    ]
+  ],
+  "actor_set": "cartoon-workshop"
+}
