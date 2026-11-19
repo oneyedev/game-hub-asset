@@ -1,0 +1,80 @@
+{
+  "id": "base-archer-i",
+  "version": 2,
+  "canvas": [
+    256,
+    256
+  ],
+  "base_anchor": [
+    128,
+    238
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "characters": [
+    {
+      "id": "a",
+      "file": "archer_a.png",
+      "foot": [
+        105,
+        109
+      ]
+    },
+    {
+      "id": "b",
+      "file": "archer_b.png",
+      "foot": [
+        151,
+        109
+      ]
+    }
+  ],
+  "sprite_sheet": {
+    "cell": [
+      96,
+      96
+    ],
+    "facings": [
+      "front",
+      "left",
+      "right",
+      "back"
+    ],
+    "frame_columns": 4,
+    "frame_rows": 2,
+    "idle_frames": [
+      0
+    ],
+    "attack_frames": [
+      1
+    ],
+    "opaque_boot_baseline_y": 80
+  },
+  "render_order": [
+    "back",
+    "archer_a",
+    "archer_b",
+    "front"
+  ],
+  "attack_alternate": true,
+  "runtime_reference": {
+    "repository": "oneyedev/games-hub",
+    "commit": "61ae42b08c6fe020a6c7f478f3016acae67005fd",
+    "file": "game/scenarios/archer_levels.gd",
+    "actor_canvas_draw_size": 84.41081081081082,
+    "front_rail_region": [
+      44,
+      85,
+      169,
+      25
+    ]
+  },
+  "note": "Actual base-I runtime foot anchors override stale original meta.json values. One idle and one drawn-bow pose per facing. Preserve shared tower attack cooldown.",
+  "art_variant": "cartoon-workshop",
+  "source_images": [
+    "exec-a33b1768-fa1d-4b57-9ee6-29e20300a1bf.png",
+    "exec-45e43b57-7ea8-4f68-8d51-bcb1b4b3816a.png"
+  ]
+}
