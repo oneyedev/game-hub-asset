@@ -59,18 +59,16 @@
   ],
   "preview_feet": [
     [
-      108,
-      215
+      87,
+      223
     ],
     [
-      155,
-      212
-    ],
-    [
-      133,
-      115
+      164,
+      222
     ]
   ],
   "projectile": "siege_circus",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-62f4943b-cd36-4fe5-b257-dbc8e1187c19.png"
+  ]
 }
