@@ -58,18 +58,16 @@
   ],
   "preview_feet": [
     [
-      62,
-      165
+      81,
+      180
     ],
     [
-      184,
-      172
-    ],
-    [
-      129,
-      152
+      162,
+      183
     ]
   ],
   "projectile": "siege_bolt",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-b0c45432-c95d-4b28-a2a3-3a5c3264a7cd.png"
+  ]
 }
