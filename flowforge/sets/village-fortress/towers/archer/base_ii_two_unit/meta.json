@@ -68,5 +68,26 @@
     "exec-2cff3b9e-f98e-4f63-827c-dbf7d117d53f.png"
   ],
   "projectile": "arrow",
-  "actor_set": "cartoon-workshop"
+  "characters": [
+    {
+      "id": "a",
+      "file": "archer_a.png",
+      "foot": [
+        106,
+        119
+      ]
+    },
+    {
+      "id": "b",
+      "file": "archer_b.png",
+      "foot": [
+        157,
+        111
+      ]
+    }
+  ],
+  "character_source_images": [
+    "exec-ff639868-b1b3-48e5-aafb-1e0d342bc110.png",
+    "exec-0a71ab51-ee24-4d73-95e2-2deed307eb65.png"
+  ]
 }
