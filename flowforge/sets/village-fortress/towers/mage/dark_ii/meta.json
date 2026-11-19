@@ -1,0 +1,50 @@
+{
+  "profile": 5,
+  "form": "dark",
+  "status": "Bundled default in games-hub mage-01; optional remote comparison",
+  "canvas": [
+    256,
+    256
+  ],
+  "actor_sheet": [
+    1024,
+    512
+  ],
+  "cell": [
+    256,
+    256
+  ],
+  "columns": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "rows": [
+    "idle",
+    "cast"
+  ],
+  "actors": 1,
+  "foot_anchor": [
+    128,
+    143
+  ],
+  "layer_order": [
+    "tower_back.png",
+    "mage.png",
+    "tower_front.png"
+  ],
+  "render_scale": 0.7,
+  "provenance": "Original artwork generated with OpenAI image generation from the user wizard lineup and Village style reference. Atlas extraction, fixed feet alignment, and front contour masks use the same building pixels; no external purchased asset.",
+  "id": "dark_ii",
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-a576f287-1bc4-4942-9732-7ecc8eda7454.png"
+  ],
+  "preview_foot": [
+    146,
+    215
+  ],
+  "projectile": "dark",
+  "actor_set": "cartoon-workshop"
+}
