@@ -16,6 +16,8 @@
         "projectiles/gatling/impact.png",
         "projectiles/rune/flight.png",
         "projectiles/rune/impact.png",
+        "projectiles/sniper/flight.png",
+        "projectiles/sniper/impact.png",
         "projectiles/spirit/flight.png",
         "projectiles/spirit/impact.png",
         "towers/archer/base_i_two_unit/archer_a.png",
@@ -50,6 +52,9 @@
         "towers/archer/rune_one_unit/archer_a.png",
         "towers/archer/rune_one_unit/tower_back.png",
         "towers/archer/rune_one_unit/tower_front.png",
+        "towers/archer/sniper_one_unit/sniper.png",
+        "towers/archer/sniper_one_unit/tower_back.png",
+        "towers/archer/sniper_one_unit/tower_front.png",
         "towers/archer/spirit_one_unit/archer_a.png",
         "towers/archer/spirit_one_unit/tower_back.png",
         "towers/archer/spirit_one_unit/tower_front.png"
