@@ -52,9 +52,11 @@
   "projectile": "sniper",
   "preview_feet": [
     [
-      128,
-      134
+      159,
+      112
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-b3851de9-d593-4c54-83aa-28f5b5dbe905.png"
+  ]
 }
