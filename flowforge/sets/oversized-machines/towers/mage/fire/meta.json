@@ -42,9 +42,11 @@
     "exec-57bd0cbb-b830-4e00-aa13-4476086822da.png"
   ],
   "preview_foot": [
-    135,
-    219
+    133,
+    220
   ],
   "projectile": "fire",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-0cc4da5d-5a00-4ca2-b6c1-b67371c36391.png"
+  ]
 }
