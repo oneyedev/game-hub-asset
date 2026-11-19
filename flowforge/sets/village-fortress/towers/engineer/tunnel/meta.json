@@ -1,0 +1,82 @@
+{
+  "form": "tunnel",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ],
+    "loader": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "tool_rows": [
+    "idle",
+    "work"
+  ],
+  "crew_count": 2,
+  "platform_y": 175,
+  "tool_foot": [
+    144,
+    148
+  ],
+  "crew_feet": [
+    [
+      66,
+      184
+    ],
+    [
+      208,
+      184
+    ]
+  ],
+  "fixed_specialization_props": "Saw/spring, gantry/claw/miniturret, drill/tunnel, canvas tent remain in building, inactive without skill purchase.",
+  "source_atlas": "exec-dfb4e06b-87dc-42c4-9529-96824ccdcf9e.png",
+  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization.",
+  "base_source_atlas": "exec-283553b6-8690-4674-9c95-b72035f839ad.png",
+  "front_lip": "Exact base pixels of the front tunnel arch; tool rests on arch crown and workers remain on side ledges.",
+  "tool_scale": 0.40358744394618834,
+  "worker_scales": [
+    0.40764331210191085,
+    0.41830065359477125
+  ],
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-9a84ce5b-f18e-472a-b17a-80415949314d.png"
+  ],
+  "preview_feet": [
+    [
+      172,
+      121
+    ],
+    [
+      83,
+      207
+    ],
+    [
+      163,
+      186
+    ]
+  ],
+  "projectile": "engineer_bolt",
+  "actor_set": "cartoon-workshop"
+}
