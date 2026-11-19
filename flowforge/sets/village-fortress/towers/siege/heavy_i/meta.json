@@ -58,18 +58,16 @@
   ],
   "preview_feet": [
     [
-      97,
-      172
+      102,
+      189
     ],
     [
-      154,
-      170
-    ],
-    [
-      139,
-      171
+      185,
+      185
     ]
   ],
   "projectile": "siege_heavy",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-8841ad39-db19-46ad-b140-bff78e15ed3b.png"
+  ]
 }
