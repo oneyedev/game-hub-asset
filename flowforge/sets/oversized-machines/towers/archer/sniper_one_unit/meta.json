@@ -1,0 +1,60 @@
+{
+  "id": "sniper",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "sniper.png"
+  ],
+  "anchors": [
+    [
+      128,
+      157.22553191489362
+    ]
+  ],
+  "humans": 1,
+  "render_order": [
+    "back",
+    "sniper.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "art_variant": "oversized-machines",
+  "source_images": [
+    "exec-9fafe7a8-274a-4311-aea8-305c69ef3ccb.png"
+  ],
+  "projectile": "sniper",
+  "preview_feet": [
+    [
+      128,
+      134
+    ]
+  ],
+  "actor_set": "cartoon-workshop"
+}
