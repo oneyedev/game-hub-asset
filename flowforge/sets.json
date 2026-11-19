@@ -275,7 +275,14 @@
       "id": "oversized-machines",
       "label": "장치 중심",
       "root": "flowforge/sets/oversized-machines/",
-      "files": []
+      "files": [
+        "projectiles/arrow/flight.png",
+        "projectiles/arrow/impact.png",
+        "towers/archer/base_i_two_unit/archer_a.png",
+        "towers/archer/base_i_two_unit/archer_b.png",
+        "towers/archer/base_i_two_unit/tower_back.png",
+        "towers/archer/base_i_two_unit/tower_front.png"
+      ]
     }
   ]
 }
