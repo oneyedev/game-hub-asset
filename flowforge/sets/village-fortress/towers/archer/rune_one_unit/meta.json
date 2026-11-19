@@ -1,0 +1,60 @@
+{
+  "id": "rune",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png"
+  ],
+  "anchors": [
+    [
+      128,
+      130.5862068965517
+    ]
+  ],
+  "humans": 1,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-2cff3b9e-f98e-4f63-827c-dbf7d117d53f.png"
+  ],
+  "projectile": "rune",
+  "preview_feet": [
+    [
+      128,
+      170
+    ]
+  ],
+  "actor_set": "cartoon-workshop"
+}
