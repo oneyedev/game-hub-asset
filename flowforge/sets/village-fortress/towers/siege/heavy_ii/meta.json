@@ -1,0 +1,75 @@
+{
+  "form": "heavy_ii",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ],
+    "loader": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "weapon_rows": [
+    "idle",
+    "recoil"
+  ],
+  "crew_count": 2,
+  "platform_y": 170,
+  "weapon_foot": [
+    128,
+    174
+  ],
+  "crew_feet": [
+    [
+      66,
+      179
+    ],
+    [
+      190,
+      179
+    ]
+  ],
+  "front_lip": "Exact pixels extracted from the base with a curved platform mask.",
+  "source_atlas": "exec-9f8ad72e-f5b4-4f86-810d-43213867a3ab.png",
+  "provenance": "OpenAI generated from approved ten-form siege concept; mechanical cell extraction, alpha cleanup and normalization.",
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-29636303-3d34-472d-ae32-840491d71138.png"
+  ],
+  "preview_feet": [
+    [
+      96,
+      162
+    ],
+    [
+      166,
+      165
+    ],
+    [
+      145,
+      170
+    ]
+  ],
+  "projectile": "siege_heavy",
+  "actor_set": "cartoon-workshop"
+}
