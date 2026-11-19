@@ -1,0 +1,50 @@
+{
+  "profile": 1,
+  "form": "base_ii",
+  "status": "Bundled default in games-hub mage-01; optional remote comparison",
+  "canvas": [
+    256,
+    256
+  ],
+  "actor_sheet": [
+    1024,
+    512
+  ],
+  "cell": [
+    256,
+    256
+  ],
+  "columns": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "rows": [
+    "idle",
+    "cast"
+  ],
+  "actors": 1,
+  "foot_anchor": [
+    128,
+    148
+  ],
+  "layer_order": [
+    "tower_back.png",
+    "mage.png",
+    "tower_front.png"
+  ],
+  "render_scale": 0.7,
+  "provenance": "Original artwork generated with OpenAI image generation from the user wizard lineup and Village style reference. Atlas extraction, fixed feet alignment, and front contour masks use the same building pixels; no external purchased asset.",
+  "id": "base_ii",
+  "art_variant": "cartoon-workshop",
+  "source_images": [
+    "exec-0a3a403b-37ae-4f26-a9db-85ea3a8183f4.png",
+    "exec-99f917c3-3998-4539-8a07-698495c8fde1.png"
+  ],
+  "preview_foot": [
+    131,
+    216
+  ],
+  "projectile": "magic"
+}
