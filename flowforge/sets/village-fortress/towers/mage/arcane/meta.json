@@ -42,9 +42,11 @@
     "exec-a576f287-1bc4-4942-9732-7ecc8eda7454.png"
   ],
   "preview_foot": [
-    132,
-    216
+    128,
+    209
   ],
   "projectile": "arcane",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-5c4194dd-0f62-4b10-9967-3e3287b21409.png"
+  ]
 }
