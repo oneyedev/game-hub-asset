@@ -56,5 +56,17 @@
     "exec-9fafe7a8-274a-4311-aea8-305c69ef3ccb.png"
   ],
   "projectile": "elf",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-50348b24-42d1-4a94-8b8c-9538740740ad.png"
+  ],
+  "preview_feet": [
+    [
+      104,
+      123
+    ],
+    [
+      151,
+      116
+    ]
+  ]
 }
