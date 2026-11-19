@@ -42,9 +42,11 @@
     "exec-57bd0cbb-b830-4e00-aa13-4476086822da.png"
   ],
   "preview_foot": [
-    146,
-    215
+    104,
+    214
   ],
   "projectile": "dark",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-0e5aa9c6-524a-45f5-bbe5-b656559bc876.png"
+  ]
 }
