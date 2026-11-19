@@ -221,6 +221,8 @@
         "projectiles/arrow/impact.png",
         "projectiles/elf/flight.png",
         "projectiles/elf/impact.png",
+        "projectiles/spirit/flight.png",
+        "projectiles/spirit/impact.png",
         "towers/archer/base_i_two_unit/archer_a.png",
         "towers/archer/base_i_two_unit/archer_b.png",
         "towers/archer/base_i_two_unit/tower_back.png",
@@ -236,7 +238,10 @@
         "towers/archer/elf_two_unit/archer_a.png",
         "towers/archer/elf_two_unit/archer_b.png",
         "towers/archer/elf_two_unit/tower_back.png",
-        "towers/archer/elf_two_unit/tower_front.png"
+        "towers/archer/elf_two_unit/tower_front.png",
+        "towers/archer/spirit_one_unit/archer_a.png",
+        "towers/archer/spirit_one_unit/tower_back.png",
+        "towers/archer/spirit_one_unit/tower_front.png"
       ]
     },
     {
