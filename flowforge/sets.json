@@ -239,6 +239,8 @@
         "projectiles/magic/impact.png",
         "projectiles/rune/flight.png",
         "projectiles/rune/impact.png",
+        "projectiles/siege_heavy/flight.png",
+        "projectiles/siege_heavy/impact.png",
         "projectiles/siege_shell/flight.png",
         "projectiles/siege_shell/impact.png",
         "projectiles/sniper/flight.png",
@@ -324,7 +326,12 @@
         "towers/siege/base_ii/operator.png",
         "towers/siege/base_ii/tower_back.png",
         "towers/siege/base_ii/tower_front.png",
-        "towers/siege/base_ii/weapon.png"
+        "towers/siege/base_ii/weapon.png",
+        "towers/siege/heavy_i/loader.png",
+        "towers/siege/heavy_i/operator.png",
+        "towers/siege/heavy_i/tower_back.png",
+        "towers/siege/heavy_i/tower_front.png",
+        "towers/siege/heavy_i/weapon.png"
       ]
     },
     {
