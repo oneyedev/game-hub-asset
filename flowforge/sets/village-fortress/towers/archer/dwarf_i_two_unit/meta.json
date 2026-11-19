@@ -58,13 +58,15 @@
   "projectile": "bullet",
   "preview_feet": [
     [
-      104,
-      148
+      116,
+      177
     ],
     [
-      151,
-      139
+      145,
+      177
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-3b9da94e-0d32-494e-ab1e-414ad7c10e8d.png"
+  ]
 }
