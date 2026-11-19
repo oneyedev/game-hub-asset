@@ -63,18 +63,16 @@
   ],
   "preview_feet": [
     [
-      91,
-      223
+      105,
+      170
     ],
     [
-      167,
-      224
-    ],
-    [
-      126,
-      214
+      168,
+      194
     ]
   ],
   "projectile": "engineer_stone",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-e2d4cd23-5708-440a-a0d0-4fc3f9f313f6.png"
+  ]
 }
