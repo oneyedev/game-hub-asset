@@ -1,0 +1,60 @@
+{
+  "id": "rune",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png"
+  ],
+  "anchors": [
+    [
+      128,
+      130.5862068965517
+    ]
+  ],
+  "humans": 1,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "art_variant": "cartoon-workshop",
+  "source_images": [
+    "exec-3e8ffcb0-1413-4c56-afe6-954d2d581d6f.png",
+    "exec-dccaf890-2f74-4019-ab03-e8e756c78895.png"
+  ],
+  "projectile": "rune",
+  "preview_feet": [
+    [
+      128,
+      170
+    ]
+  ]
+}
