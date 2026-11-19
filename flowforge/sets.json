@@ -400,6 +400,8 @@
         "projectiles/magic/impact.png",
         "projectiles/rune/flight.png",
         "projectiles/rune/impact.png",
+        "projectiles/siege_shell/flight.png",
+        "projectiles/siege_shell/impact.png",
         "projectiles/sniper/flight.png",
         "projectiles/sniper/impact.png",
         "projectiles/sorcery/flight.png",
@@ -473,7 +475,12 @@
         "towers/mage/sorceress/tower_front.png",
         "towers/mage/sorceress_ii/mage.png",
         "towers/mage/sorceress_ii/tower_back.png",
-        "towers/mage/sorceress_ii/tower_front.png"
+        "towers/mage/sorceress_ii/tower_front.png",
+        "towers/siege/base_i/loader.png",
+        "towers/siege/base_i/operator.png",
+        "towers/siege/base_i/tower_back.png",
+        "towers/siege/base_i/tower_front.png",
+        "towers/siege/base_i/weapon.png"
       ]
     }
   ]

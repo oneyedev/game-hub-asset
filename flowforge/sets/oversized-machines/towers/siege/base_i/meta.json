@@ -1,0 +1,75 @@
+{
+  "form": "base_i",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ],
+    "loader": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "weapon_rows": [
+    "idle",
+    "recoil"
+  ],
+  "crew_count": 2,
+  "platform_y": 163,
+  "weapon_foot": [
+    128,
+    167
+  ],
+  "crew_feet": [
+    [
+      66,
+      172
+    ],
+    [
+      190,
+      172
+    ]
+  ],
+  "front_lip": "Exact pixels extracted from the base with a curved platform mask.",
+  "source_atlas": "exec-80412772-af93-46f6-a159-bf76e2f49275.png",
+  "provenance": "OpenAI generated from approved ten-form siege concept; mechanical cell extraction, alpha cleanup and normalization.",
+  "art_variant": "oversized-machines",
+  "source_images": [
+    "exec-70344e47-5513-4f66-8ed5-7cafdc3c7260.png"
+  ],
+  "preview_feet": [
+    [
+      73,
+      183
+    ],
+    [
+      172,
+      187
+    ],
+    [
+      125,
+      151
+    ]
+  ],
+  "projectile": "siege_shell",
+  "actor_set": "cartoon-workshop"
+}
