@@ -14,6 +14,8 @@
         "projectiles/elf/impact.png",
         "projectiles/gatling/flight.png",
         "projectiles/gatling/impact.png",
+        "projectiles/magic/flight.png",
+        "projectiles/magic/impact.png",
         "projectiles/rune/flight.png",
         "projectiles/rune/impact.png",
         "projectiles/sniper/flight.png",
@@ -57,7 +59,10 @@
         "towers/archer/sniper_one_unit/tower_front.png",
         "towers/archer/spirit_one_unit/archer_a.png",
         "towers/archer/spirit_one_unit/tower_back.png",
-        "towers/archer/spirit_one_unit/tower_front.png"
+        "towers/archer/spirit_one_unit/tower_front.png",
+        "towers/mage/base_i/mage.png",
+        "towers/mage/base_i/tower_back.png",
+        "towers/mage/base_i/tower_front.png"
       ]
     },
     {
