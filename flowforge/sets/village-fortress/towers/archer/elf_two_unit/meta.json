@@ -1,0 +1,60 @@
+{
+  "id": "elf_i",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      96,
+      96
+    ],
+    "size": [
+      384,
+      192
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png",
+    "archer_b.png"
+  ],
+  "anchors": [
+    [
+      90,
+      114
+    ],
+    [
+      165,
+      114
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "archer_b.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Independent generated directional art. Uniform scale; never mirrored. Matching front silhouette is extracted from the same completed building.",
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-2cff3b9e-f98e-4f63-827c-dbf7d117d53f.png"
+  ],
+  "projectile": "elf",
+  "actor_set": "cartoon-workshop"
+}
