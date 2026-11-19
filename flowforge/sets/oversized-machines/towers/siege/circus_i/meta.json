@@ -1,0 +1,75 @@
+{
+  "form": "circus_i",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ],
+    "loader": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "weapon_rows": [
+    "idle",
+    "recoil"
+  ],
+  "crew_count": 2,
+  "platform_y": 130,
+  "weapon_foot": [
+    128,
+    134
+  ],
+  "crew_feet": [
+    [
+      66,
+      139
+    ],
+    [
+      190,
+      139
+    ]
+  ],
+  "front_lip": "Exact pixels extracted from the base with a curved platform mask.",
+  "source_atlas": "exec-d6a734f1-23b7-412d-b2fd-d7bb5acac1e5.png",
+  "provenance": "OpenAI generated from approved ten-form siege concept; mechanical cell extraction, alpha cleanup and normalization.",
+  "art_variant": "oversized-machines",
+  "source_images": [
+    "exec-70344e47-5513-4f66-8ed5-7cafdc3c7260.png"
+  ],
+  "preview_feet": [
+    [
+      77,
+      148
+    ],
+    [
+      165,
+      147
+    ],
+    [
+      129,
+      151
+    ]
+  ],
+  "projectile": "siege_circus",
+  "actor_set": "cartoon-workshop"
+}
