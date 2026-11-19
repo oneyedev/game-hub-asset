@@ -1,0 +1,71 @@
+{
+  "form": "gnome_ii",
+  "status": "approved-default",
+  "layers": {
+    "back": [
+      256,
+      256
+    ],
+    "front": [
+      256,
+      256
+    ],
+    "weapon": [
+      1024,
+      512
+    ],
+    "operator": [
+      1024,
+      256
+    ]
+  },
+  "direction_order": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "tool_rows": [
+    "idle",
+    "work"
+  ],
+  "crew_count": 1,
+  "platform_y": 175,
+  "tool_foot": [
+    144,
+    179
+  ],
+  "crew_feet": [
+    [
+      96,
+      184
+    ]
+  ],
+  "fixed_specialization_props": "Saw/spring, gantry/claw/miniturret, drill/tunnel, canvas tent remain in building, inactive without skill purchase.",
+  "source_atlas": "exec-cb55bc78-9b62-44c3-aab3-1f0f4152fae7.png",
+  "provenance": "OpenAI generated from approved engineer concept; mechanical alpha cleanup, cell extraction, anchor normalization.",
+  "tool_scale": 0.410958904109589,
+  "worker_scales": [
+    0.31840796019900497
+  ],
+  "art_variant": "village-fortress",
+  "source_images": [
+    "exec-9a84ce5b-f18e-472a-b17a-80415949314d.png"
+  ],
+  "preview_feet": [
+    [
+      177,
+      122
+    ],
+    [
+      91,
+      210
+    ],
+    [
+      163,
+      198
+    ]
+  ],
+  "projectile": "engineer_bolt",
+  "actor_set": "cartoon-workshop"
+}
