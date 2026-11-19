@@ -52,9 +52,11 @@
   "projectile": "spirit",
   "preview_feet": [
     [
-      114,
-      157
+      159,
+      174
     ]
   ],
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-53bde913-db75-4dae-967d-52560ff7807f.png"
+  ]
 }
