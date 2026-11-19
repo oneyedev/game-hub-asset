@@ -63,18 +63,16 @@
   ],
   "preview_feet": [
     [
-      123,
-      195
+      103,
+      210
     ],
     [
-      164,
-      207
-    ],
-    [
-      131,
-      204
+      145,
+      213
     ]
   ],
   "projectile": "engineer_bolt",
-  "actor_set": "cartoon-workshop"
+  "character_source_images": [
+    "exec-3d389c07-b2cc-4a12-bf47-73bcc3560d0d.png"
+  ]
 }
