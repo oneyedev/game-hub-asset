@@ -1,0 +1,48 @@
+{
+  "id": "rune",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "archer_a.png"
+  ],
+  "anchors": [
+    [
+      151,
+      120
+    ]
+  ],
+  "humans": 1,
+  "render_order": [
+    "back",
+    "archer_a.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Village Archer review candidate. Independent directional poses adapted from the existing Village atlases. Static front layer uses the same building pixels as the back layer."
+}

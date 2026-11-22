@@ -633,6 +633,31 @@
         "towers/siege/thunder/tower_front.png",
         "towers/siege/thunder/weapon.png"
       ]
+    },
+    {
+      "id": "village-archer-review",
+      "label": "Village 아처 3종 시안",
+      "root": "flowforge/sets/village-archer-review/",
+      "overrides": {},
+      "files": [
+        "projectiles/gatling/flight.png",
+        "projectiles/gatling/impact.png",
+        "projectiles/rune/flight.png",
+        "projectiles/rune/impact.png",
+        "projectiles/sniper/flight.png",
+        "projectiles/sniper/impact.png",
+        "towers/archer/gatling_two_unit/loader.png",
+        "towers/archer/gatling_two_unit/operator.png",
+        "towers/archer/gatling_two_unit/rotary_cannon.png",
+        "towers/archer/gatling_two_unit/tower_back.png",
+        "towers/archer/gatling_two_unit/tower_front.png",
+        "towers/archer/rune_one_unit/archer_a.png",
+        "towers/archer/rune_one_unit/tower_back.png",
+        "towers/archer/rune_one_unit/tower_front.png",
+        "towers/archer/sniper_one_unit/sniper.png",
+        "towers/archer/sniper_one_unit/tower_back.png",
+        "towers/archer/sniper_one_unit/tower_front.png"
+      ]
     }
   ]
 }

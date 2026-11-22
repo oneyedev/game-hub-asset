@@ -1,0 +1,60 @@
+{
+  "id": "gatling",
+  "canvas": [
+    256,
+    256
+  ],
+  "layers": {
+    "back": "tower_back.png",
+    "front": "tower_front.png"
+  },
+  "atlas": {
+    "cell": [
+      256,
+      256
+    ],
+    "size": [
+      1024,
+      512
+    ],
+    "facings": [
+      "front",
+      "right",
+      "back",
+      "left"
+    ],
+    "rows": [
+      "idle",
+      "attack"
+    ]
+  },
+  "actors": [
+    "operator.png",
+    "loader.png",
+    "rotary_cannon.png"
+  ],
+  "anchors": [
+    [
+      89,
+      154
+    ],
+    [
+      134,
+      139
+    ],
+    [
+      168,
+      151
+    ]
+  ],
+  "humans": 2,
+  "render_order": [
+    "back",
+    "loader.png",
+    "operator.png",
+    "rotary_cannon.png",
+    "front"
+  ],
+  "shared_cooldown": true,
+  "note": "Village Archer review candidate. Independent directional poses adapted from the existing Village atlases. Static front layer uses the same building pixels as the back layer."
+}
